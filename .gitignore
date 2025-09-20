@@ -1,0 +1,94 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Environment variables & secrets
+.env
+.env.*
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+pip-selfcheck.json
+
+# Poetry
+poetry.lock
+# pipenv
+Pipfile.lock
+
+# VS Code settings
+.vscode/
+.idea/
+
+# macOS files
+.DS_Store
+
+# Logs
+*.log
+logs/
+*.out
+
+# mypy / pytest / coverage
+.mypy_cache/
+.pytest_cache/
+.coverage
+htmlcov/
+coverage.xml
+
+# Pydantic cache
+__pydantic__/
+
+# Database
+*.db
+*.sqlite3
+*.sql
+*.psql
+
+# Alembic (if using migrations but don't want generated versions)
+alembic/versions/*.pyc
+alembic/versions/__pycache__/
+
+# Static assets (optional)
+static/media/
+static/uploads/
+static/cache/
+
+# Node modules (if using any frontend code)
+node_modules/
+dist/
+build/
+
+# Frontend frameworks (React, Vue, etc.)
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Test artifacts
+.tox/
+nosetests.xml
+test-results/
+junit-*.xml
+
+# Docker (optional)
+*.pid
+docker-compose.override.yml
+
+# Git
+*.orig
+
+# Local dev DB or runtime files
+*.pid
+*.pid.lock
+
+# Coverage reports
+coverage/
